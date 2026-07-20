@@ -1,0 +1,95 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pt-title">
+<title id="pt-title">Preview of the Pantheon website: a dark hero with the title "The Pantheon", stat row, filter pills, and a grid of legend cards</title>
+<defs>
+  <radialGradient id="glow1" cx="20%" cy="0%" r="60%">
+    <stop offset="0%" stop-color="#d9b25a" stop-opacity="0.25"/>
+    <stop offset="100%" stop-color="#d9b25a" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow2" cx="95%" cy="15%" r="55%">
+    <stop offset="0%" stop-color="#5a82d9" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#5a82d9" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="heroText" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="70%" stop-color="#b9bcc4"/>
+  </linearGradient>
+  <clipPath id="frame">
+    <rect x="0" y="0" width="640" height="400" rx="14"/>
+  </clipPath>
+</defs>
+
+<g clip-path="url(#frame)">
+  <rect width="640" height="400" fill="#0a0b0e"/>
+  <rect width="640" height="400" fill="url(#glow1)"/>
+  <rect width="640" height="400" fill="url(#glow2)"/>
+
+  <!-- header -->
+  <rect x="0" y="0" width="640" height="40" fill="#0a0b0e" opacity="0.001"/>
+  <rect x="24" y="16" width="16" height="16" rx="4" fill="#d9b25a"/>
+  <text x="46" y="29" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#eef0f4">Pantheon</text>
+  <line x1="0" y1="40" x2="640" y2="40" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <!-- hero -->
+  <text x="24" y="70" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.5" fill="#d9b25a">SPORT'S ENDURING GREATS</text>
+  <text x="22" y="106" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="800" fill="url(#heroText)">The Pantheon</text>
+  <rect x="24" y="122" width="300" height="7" rx="3.5" fill="#ffffff" opacity="0.14"/>
+  <rect x="24" y="133" width="220" height="7" rx="3.5" fill="#ffffff" opacity="0.14"/>
+
+  <!-- stat row -->
+  <text x="24" y="168" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#eef0f4">23</text>
+  <text x="24" y="180" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#9099a8">Legends</text>
+  <text x="74" y="168" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#eef0f4">4</text>
+  <text x="74" y="180" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#9099a8">Eras</text>
+  <text x="112" y="168" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#eef0f4">70+</text>
+  <text x="112" y="180" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#9099a8">Years spanned</text>
+
+  <!-- filter pills -->
+  <rect x="24" y="200" width="36" height="20" rx="10" fill="#d9b25a"/>
+  <text x="42" y="213" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#100c02" text-anchor="middle">All</text>
+
+  <rect x="66" y="200" width="82" height="20" rx="10" fill="none" stroke="#ffffff" stroke-opacity="0.15"/>
+  <text x="107" y="213" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#9099a8" text-anchor="middle">Golden Era</text>
+
+  <rect x="154" y="200" width="98" height="20" rx="10" fill="none" stroke="#ffffff" stroke-opacity="0.15"/>
+  <text x="203" y="213" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#9099a8" text-anchor="middle">Modern Greats</text>
+
+  <rect x="258" y="200" width="130" height="20" rx="10" fill="none" stroke="#ffffff" stroke-opacity="0.15"/>
+  <text x="323" y="213" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#9099a8" text-anchor="middle">Contemporary Icons</text>
+
+  <line x1="24" y1="234" x2="616" y2="234" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <!-- card grid -->
+  <g font-family="Helvetica, Arial, sans-serif">
+    <!-- card 1 -->
+    <rect x="24" y="250" width="188" height="118" rx="12" fill="#ffffff" fill-opacity="0.03" stroke="#d9744f" stroke-opacity="0.4"/>
+    <circle cx="46" cy="274" r="14" fill="#d9744f" fill-opacity="0.2" stroke="#d9744f" stroke-opacity="0.5"/>
+    <text x="46" y="278" font-size="10" font-weight="800" fill="#e8a082" text-anchor="middle">P</text>
+    <text x="188" y="277" font-size="9" fill="#9099a8" text-anchor="end">001</text>
+    <text x="34" y="304" font-size="13" font-weight="700" fill="#eef0f4">Pele</text>
+    <text x="34" y="318" font-size="8" fill="#9099a8">Santos / Brazil</text>
+    <text x="34" y="330" font-size="8" fill="#9099a8">1956-1977</text>
+    <rect x="34" y="342" width="160" height="6" rx="3" fill="#ffffff" opacity="0.12"/>
+
+    <!-- card 2 -->
+    <rect x="226" y="250" width="188" height="118" rx="12" fill="#ffffff" fill-opacity="0.03" stroke="#5ab5d9" stroke-opacity="0.4"/>
+    <circle cx="248" cy="274" r="14" fill="#5ab5d9" fill-opacity="0.2" stroke="#5ab5d9" stroke-opacity="0.5"/>
+    <text x="248" y="278" font-size="10" font-weight="800" fill="#9ed4ea" text-anchor="middle">DM</text>
+    <text x="390" y="277" font-size="9" fill="#9099a8" text-anchor="end">007</text>
+    <text x="236" y="304" font-size="13" font-weight="700" fill="#eef0f4">Diego Maradona</text>
+    <text x="236" y="318" font-size="8" fill="#9099a8">Napoli / Argentina</text>
+    <text x="236" y="330" font-size="8" fill="#9099a8">1976-1997</text>
+    <rect x="236" y="342" width="160" height="6" rx="3" fill="#ffffff" opacity="0.12"/>
+
+    <!-- card 3 -->
+    <rect x="428" y="250" width="188" height="118" rx="12" fill="#ffffff" fill-opacity="0.03" stroke="#d9b25a" stroke-opacity="0.4"/>
+    <circle cx="450" cy="274" r="14" fill="#d9b25a" fill-opacity="0.2" stroke="#d9b25a" stroke-opacity="0.5"/>
+    <text x="450" y="278" font-size="10" font-weight="800" fill="#ecd08e" text-anchor="middle">LM</text>
+    <text x="592" y="277" font-size="9" fill="#9099a8" text-anchor="end">013</text>
+    <text x="438" y="304" font-size="13" font-weight="700" fill="#eef0f4">Lionel Messi</text>
+    <text x="438" y="318" font-size="8" fill="#9099a8">Barcelona / Argentina</text>
+    <text x="438" y="330" font-size="8" fill="#9099a8">2004-Present</text>
+    <rect x="438" y="342" width="160" height="6" rx="3" fill="#ffffff" opacity="0.12"/>
+  </g>
+</g>
+<rect x="0.5" y="0.5" width="639" height="399" rx="14" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+</svg>
